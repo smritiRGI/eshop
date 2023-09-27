@@ -13,9 +13,7 @@ Eshop is an Amazon clone web application built using React, Firebase, and other 
 
 ## Demo
 
-![Amazon Clone Demo](demo.gif)
-
-[Live Demo](#) _()_
+[Live Demo](#) _(https://eshop21.netlify.app/)_
 
 ## Features
 
@@ -32,12 +30,10 @@ Eshop is an Amazon clone web application built using React, Firebase, and other 
   - React
   - React Router for navigation
   - Firebase Authentication for user management
-  - State management (Redux, Mobx, or similar)
+  - State management (Context Api)
   - Material-UI or a similar UI framework for styling
 
 - **Backend (Optional)**:
-  - Node.js (Express.js or another framework)
-  - MongoDB or a database of your choice for product storage
   - Firebase Firestore for cart and user data storage (if not using a backend server)
 
 ## Getting Started
