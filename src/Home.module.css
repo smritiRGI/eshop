@@ -1,0 +1,11 @@
+.main {
+  background-color: rgb(211, 216, 220);
+  padding-bottom: 5vh;
+}
+
+.main__image {
+  width: 100vw;
+}
+.main__products {
+  display: flex;
+}

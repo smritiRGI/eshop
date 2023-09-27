@@ -1,0 +1,82 @@
+.header {
+  background-color: #131921;
+  display: flex;
+  /*The align-items property is a CSS property used in flexbox layouts to control 
+  how flex items are aligned along the cross-axis of the flex container. */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  /* The justify-content property is a CSS property used in flexbox layouts to control how flex 
+  items are distributed or aligned along the main axis of the flex container. */
+  justify-content: space-between;
+  padding: 2vh 1vw;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  color: #ff9f00;
+  margin: 0 1vw;
+}
+.header__logoImage {
+  margin-right: 1vw;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+  /* In summary, flex: 1; is a common shorthand used in flex layouts 
+  to make a flex item flexible and have it take up available space proportionally 
+  with other flex items. It ensures that 
+  the item will grow and shrink along with the container 
+  and other flex items as needed to fill or adjust to the available space.*/
+  flex: 1;
+}
+.header__searchInput {
+  height: 20px;
+  padding: 11px;
+  border: none;
+  width: 100%;
+}
+.header__searchInput::placeholder {
+  padding: 1vh 1vw;
+}
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #ff9f00;
+}
+.nav__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1vw;
+  color: white;
+}
+.nav__itemBasket {
+  display: flex;
+  align-items: center;
+  margin: 0 1vw;
+  color: white;
+}
+.nav__itemBasket .nav__itemLineOne {
+  margin-right: 1vw;
+}
+
+.nav__itemBasket .nav__itemLineTwo {
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  .header__nav {
+    margin: 1vh 0;
+  }
+  .header__logo {
+    margin: 0;
+  }
+}

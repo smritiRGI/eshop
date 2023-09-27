@@ -1,0 +1,11 @@
+.checkout {
+  display: grid;
+  background-color: white;
+  height: max-content;
+  grid-template-columns: 2fr 1fr;
+  gap: 1vw;
+  padding: 5vh 2vw;
+}
+.checkout__ad {
+  width: 100%;
+}

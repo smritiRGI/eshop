@@ -1,0 +1,17 @@
+.cartProduct {
+  display: flex;
+  margin: 5vh 1vw;
+  gap: 1.5vw;
+}
+
+.cartProduct_image {
+  width: 10vw;
+  /* maintains the aspect ration*/
+  object-fit: contain;
+}
+.cartProduct__details {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  align-items: flex-start;
+}
